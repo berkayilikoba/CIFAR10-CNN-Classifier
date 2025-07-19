@@ -20,7 +20,7 @@ This project implements a CNN to classify images from the CIFAR-10 dataset, whic
 - TensorFlow
 - Keras
 - NumPy
-- Matplotlib (optional, for visualization)
+- Seaborn and Matplotlib (optional, for visualization)
 
 ## Installation
 
@@ -28,3 +28,5 @@ You can install the required packages via pip:
 
 ```bash
 pip install tensorflow keras numpy matplotlib
+'''
+
