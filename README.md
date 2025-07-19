@@ -34,8 +34,8 @@ pip install tensorflow keras numpy matplotlib seaborn
 
 The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 different classes, with 6,000 images per class. It is widely used for training machine learning and computer vision algorithms. The dataset is divided into 50,000 training images and 10,000 test images.
 
-You can load the dataset easily using Keras:
+## Usage
 
-```python
-from keras.datasets import cifar10
-```
+model.py — Defines the CNN model architecture.
+train.py — Loads data, trains the model, and saves the best model.
+predict.py — Loads the saved model, performs predictions on test data, and visualizes results.
