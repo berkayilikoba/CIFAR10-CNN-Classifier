@@ -38,6 +38,6 @@ The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 different class
 
 Run the scripts in the following order:
 
-1. **model.py** — Defines the ANN model architecture.  
+1. **model.py** — Defines the CNN model architecture.  
 2. **train.py** — Loads data, trains the model, and saves the best model.  
 3. **predict.py** — Loads the saved model, performs predictions on test data, and visualizes results.
