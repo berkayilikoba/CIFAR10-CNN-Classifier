@@ -28,5 +28,8 @@ You can install the required packages via pip:
 
 ```bash
 pip install tensorflow keras numpy matplotlib
-'''
+
+## Dataset
+
+The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 different classes, with 6,000 images per class. It is widely used for training machine learning and computer vision algorithms. The dataset is divided into 50,000 training images and 10,000 test images.
 
